@@ -196,45 +196,15 @@ while(num > 0){
 }
 println(sum)
 ```
-	
-	
-	
-	
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
-	
-	
-
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
 ## 对象
 
 Java/Scala OO(Object Oriented)
-	封装：属性、方法封装到类中，可设置访问级别
-	继承：父类和子类之间的关系  重写 
-	多态：父类引用指向子类对象  开发框架基石
+- 封装：属性、方法封装到类中，可设置访问级别
+- 继承：父类和子类之间的关系  重写 
+- 多态：父类引用指向子类对象  开发框架基石
 
-类的定义和使用
+### 类的定义和使用
 	class SparkContext(config: SparkConf) extends Logging{}
 
 	构造器(主构造器和附属构造器)
@@ -253,18 +223,18 @@ Java/Scala OO(Object Oriented)
 		    this.gender = gender
 	 }
 
-继承
+### 继承
 		class Student(name: String, age: Int, var major: String) extends Person(name, age) {
 
-重写
+### 重写
 	override def acquireUnrollMemory()
 	override def toString = "test override"
 
-抽象类
+### 抽象类
 	abstract class Person2{}
 	private [spark] abstract class MemoryManager(...) entends Logging{}
 
-伴生类和伴生对象
+### 伴生类和伴生对象
   	如果有一个class，还有一个与class同名的object 互为 伴生类和伴生对象
 	class ApplyTest{
 		def apply(){
