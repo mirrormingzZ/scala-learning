@@ -1,0 +1,13 @@
+server:
+  port: 7777
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.108.61.221:3306/scala-learning?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: a17770060561
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
