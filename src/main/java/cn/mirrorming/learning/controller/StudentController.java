@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Mireal
  */
 @RestController
-@RequestMapping("/meta/database")
+@RequestMapping("student")
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class StudentController {
     private final StudentService studentService;
